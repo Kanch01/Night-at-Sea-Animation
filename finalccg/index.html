@@ -1,0 +1,43 @@
+<!-- Last edited by Dietrich Geisler 2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body onload="main()">
+    <!-- WebGL Utility Scripts -->
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils-cs351.js"></script>
+    <script src="lib/cuon-algebra-cs351.js"></script>
+
+    <script src="terrain.js"></script>
+
+    <!-- Select a JavaScript file -->
+    <script src="project1starter.js"></script>
+
+    <!-- Setup the Canvas -->
+    <canvas id="canvas" width="640" height="640">
+        Please use a browser that supports "canvas"
+    </canvas>
+
+    <!-- Explanation of camera controls -->
+    <p>
+        Controls for camera movement: 
+        Arrow Keys up/down/left/right, Z to go forward, X to go backward
+        
+        <br>Press F to follow animation. 
+        <br>While following, press A to look at hammerhead shark, S for white tipped shark, D for reef shark, and W for boat
+        <br>Use Arrow Keys to orbit around moving animation
+        <br>Press F again to go back to normal camera view
+    </p>
+
+    <!-- Hammerhead vertical slider :3 -->
+    <div style="margin-top:8px;">
+      <label for="hammerY">Hammerhead height:</label>
+      <input id="hammerY" type="range" min="-1.0" max="1.0" step="0.01" value="0">
+      <span id="hammerYValue">0.00</span>
+    </div>
+
+</body>
+
+</html>
