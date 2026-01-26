@@ -1,2 +1,4 @@
 # Night-at-Sea-Animation
-An animation created with WebGL which renders an ocean scene with shark objects and a boat object
+An animation created with WebGL which renders an ocean scene with shark objects and a boat object.
+
+In this project you can see three sharks following a boat. The sharks and the boat are lit by the scene light, which is implemented as the moon. The sharks follow the boat while doing diving motions going in and out of the water. The sharks are made to look slightly shiny, so that they look a bit wet. The boat, as it follows its path, rocks as it is perturbed by the waves of the ocean. The boat is lit to look more matte. The water is a reflective surface with small life-like waves. It reflects the sharks, the boat, and the skybox. The reflections are also distorted by the waves. Controls and directions are listed on the project itself. The best view of the ocean, where the waves reflect, look at the ocean head on. In other words, in the opposite direction that the objects are headed towards.
